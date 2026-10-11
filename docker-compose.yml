@@ -1,0 +1,68 @@
+# A13: the whole system with one command.
+#
+#   docker compose up -d --build     database + API + chat screen
+#   open http://localhost:8501       (API docs: http://localhost:8000/docs)
+#   docker compose stop              stop everything (data is kept)
+#
+#   docker compose up -d db          only the database (enough for tests and scripts)
+#
+# The first start downloads the two local models into .cache/models and, if the
+# database is empty, reads data/raw into it (app/api.py: ingest_if_empty).
+
+services:
+  db:
+    # PostgreSQL with the pgvector extension preinstalled. One database holds
+    # both the vectors (semantic search) and the full-text index (keyword
+    # search), which is what makes hybrid search a single SQL query later on.
+    image: pgvector/pgvector:pg17
+    environment:
+      POSTGRES_USER: documind
+      POSTGRES_PASSWORD: documind
+      POSTGRES_DB: documind
+    ports:
+      - "5433:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U documind"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+  api:
+    build: .
+    env_file:
+      - path: .env  # LLM key, ADMIN_API_KEY. Read at run time, never copied into the image.
+        required: false
+    environment:
+      # Inside Docker the database is the service "db" on its own port, not localhost:5433.
+      DATABASE_URL: postgresql://documind:documind@db:5432/documind
+    volumes:
+      - ./.cache/models:/app/.cache/models  # downloaded once, shared with local runs
+    ports:
+      - "8000:8000"
+    depends_on:
+      db:
+        condition: service_healthy
+    healthcheck:
+      # /health answers 200 only when the database is reachable and filled.
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/health')"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 300s  # first start: model download + reading all documents
+
+  ui:
+    build:
+      context: .
+      dockerfile: ui/Dockerfile
+    environment:
+      DOCUMIND_API_URL: http://api:8000
+    ports:
+      - "8501:8501"
+    depends_on:
+      api:
+        condition: service_healthy
+
+volumes:
+  pgdata:

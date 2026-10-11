@@ -1,0 +1,1333 @@
+{
+  "name": "hybrid",
+  "model": "arama: hybrid, cevap: gemini-3.5-flash-lite, hakem: nvidia/nemotron-3-ultra-550b-a55b",
+  "date": "2026-10-07T23:19+03:00",
+  "summary": {
+    "questions": 55,
+    "score": 0.9090909090909091,
+    "answer_score": 0.8913043478260869,
+    "refusal_score": 1.0,
+    "hit5": 0.9565217391304348,
+    "recall5": 0.9420289855072465,
+    "mrr10": 0.8568840579710144,
+    "faithful": 1.0,
+    "false_refusals": 4,
+    "input_tokens": 782.290909090909,
+    "seconds": 19.53470430363602
+  },
+  "questions": [
+    {
+      "id": "s01",
+      "category": "single",
+      "score": 1.0,
+      "rank": 1,
+      "recall5": 1.0,
+      "found": true,
+      "failure": null,
+      "answer": "Open the charging case with both earbuds inside so the LED on the case blinks white, and select 'Lumora Pulse' in your phone's Bluetooth menu [1]. If the LED does not blink, press and hold the button on the back of the case for 3 seconds [1].",
+      "cited": [
+        "manuals/pulse-user-manual.pdf, page 1"
+      ],
+      "top5": [
+        "manuals/pulse-user-manual.pdf, page 1",
+        "manuals/pulse-user-manual.pdf, page 3",
+        "manuals/pulse-pro-user-manual.pdf, page 1",
+        "faq/general-faq.md",
+        "manuals/aria-x2-user-manual.pdf, page 1"
+      ],
+      "verdict": {
+        "correctness": "correct",
+        "faithful": true,
+        "reason": "All key facts from the reference are present and all claims are supported by source [1]."
+      }
+    },
+    {
+      "id": "s02",
+      "category": "single",
+      "score": 1.0,
+      "rank": 1,
+      "recall5": 1.0,
+      "found": true,
+      "failure": null,
+      "answer": "The Lumora Halo ANC battery lasts up to 40 hours with ANC on [1].",
+      "cited": [
+        "manuals/halo-anc-user-manual.pdf, page 1"
+      ],
+      "top5": [
+        "manuals/halo-anc-user-manual.pdf, page 1",
+        "faq/general-faq.md",
+        "manuals/pulse-pro-user-manual.pdf, page 1",
+        "manuals/halo-anc-user-manual.pdf, page 1",
+        "manuals/halo-anc-user-manual.pdf, page 1"
+      ],
+      "verdict": {
+        "correctness": "correct",
+        "faithful": true,
+        "reason": "The assistant correctly states the battery life with ANC on as 40 hours, matching the source."
+      }
+    },
+    {
+      "id": "s03",
+      "category": "single",
+      "score": 1.0,
+      "rank": 1,
+      "recall5": 1.0,
+      "found": true,
+      "failure": null,
+      "answer": "Yes, the headphones can be used with the included 3.5 mm cable when the battery is empty, though ANC is not available in wired mode [1].",
+      "cited": [
+        "manuals/halo-anc-user-manual.pdf, page 1"
+      ],
+      "top5": [
+        "manuals/halo-anc-user-manual.pdf, page 1",
+        "manuals/halo-anc-user-manual.pdf, page 1",
+        "faq/general-faq.md",
+        "manuals/halo-anc-user-manual.pdf, page 1",
+        "catalog/product-catalog-2026.xlsx, row 3"
+      ],
+      "verdict": {
+        "correctness": "correct",
+        "faithful": true,
+        "reason": "The answer matches the reference and is directly supported by source [1]."
+      }
+    },
+    {
+      "id": "s04",
+      "category": "single",
+      "score": 1.0,
+      "rank": 1,
+      "recall5": 1.0,
+      "found": true,
+      "failure": null,
+      "answer": "To factory reset your Lumora Pulse earbuds, place both earbuds in the case, keep the lid open, and hold the case button for 15 seconds until the LED blinks amber 3 times [1][2]. Afterward, remove 'Lumora Pulse' from your phone's Bluetooth list [1].",
+      "cited": [
+        "manuals/pulse-user-manual.pdf, page 3",
+        "manuals/pulse-user-manual.pdf, page 3"
+      ],
+      "top5": [
+        "manuals/pulse-user-manual.pdf, page 3",
+        "manuals/pulse-user-manual.pdf, page 3",
+        "manuals/pulse-user-manual.pdf, page 1",
+        "policies/return-policy-2026.md",
+        "manuals/pulse-user-manual.pdf, page 1"
+      ],
+      "verdict": {
+        "correctness": "correct",
+        "faithful": true,
+        "reason": "The answer matches the reference and all claims are supported by the provided sources."
+      }
+    },
+    {
+      "id": "s05",
+      "category": "single",
+      "score": 1.0,
+      "rank": 1,
+      "recall5": 1.0,
+      "found": true,
+      "failure": null,
+      "answer": "Yes, we offer a 15% discount on full-priced products for verified students through our partner UNiDAYS [1]. This discount cannot be combined with other promotions [1].",
+      "cited": [
+        "faq/general-faq.md"
+      ],
+      "top5": [
+        "faq/general-faq.md",
+        "faq/general-faq.md",
+        "policies/shipping-policy.md",
+        "policies/return-policy-2025.md",
+        "policies/return-policy-2026.md"
+      ],
+      "verdict": {
+        "correctness": "correct",
+        "faithful": true,
+        "reason": "The answer matches the reference exactly and all claims are supported by source [1]."
+      }
+    },
+    {
+      "id": "s06",
+      "category": "single",
+      "score": 1.0,
+      "rank": 1,
+      "recall5": 1.0,
+      "found": true,
+      "failure": null,
+      "answer": "Yes, in the EU (which includes the Netherlands) you can pay with iDEAL and Klarna (pay in 3 installments, interest-free) [1].",
+      "cited": [
+        "faq/general-faq.md"
+      ],
+      "top5": [
+        "faq/general-faq.md",
+        "policies/shipping-policy.md",
+        "policies/shipping-policy.md",
+        "manuals/pulse-user-manual.pdf, page 1",
+        "catalog/warranty-matrix.xlsx, row 6"
+      ],
+      "verdict": {
+        "correctness": "correct",
+        "faithful": true,
+        "reason": "The answer correctly states that iDEAL and Klarna installments are available in the EU (including the Netherlands) per the source."
+      }
+    },
+    {
+      "id": "s07",
+      "category": "single",
+      "score": 1.0,
+      "rank": 1,
+      "recall5": 1.0,
+      "found": true,
+      "failure": null,
+      "answer": "The password reset link is valid for 30 minutes [1].",
+      "cited": [
+        "faq/general-faq.md"
+      ],
+      "top5": [
+        "faq/general-faq.md",
+        "manuals/pulse-user-manual.pdf, page 3",
+        "faq/lumora-app-faq.md",
+        "faq/lumora-app-faq.md",
+        "faq/lumora-app-faq.md"
+      ],
+      "verdict": {
+        "correctness": "correct",
+        "faithful": true,
+        "reason": "The answer matches the reference and is directly supported by source [1]."
+      }
+    },
+    {
+      "id": "s08",
+      "category": "single",
+      "score": 1.0,
+      "rank": 1,
+      "recall5": 1.0,
+      "found": true,
+      "failure": null,
+      "answer": "You can save up to 5 custom presets per device [1].",
+      "cited": [
+        "faq/lumora-app-faq.md"
+      ],
+      "top5": [
+        "faq/lumora-app-faq.md",
+        "release-notes/aria-x2-firmware-release-notes.md",
+        "policies/return-policy-2025.md",
+        "policies/return-policy-2026.md",
+        "catalog/warranty-matrix.xlsx, row 4"
+      ],
+      "verdict": {
+        "correctness": "correct",
+        "faithful": true,
+        "reason": "Assistant correctly states up to 5 custom presets per device, supported by source."
+      }
+    },
+    {
+      "id": "s09",
+      "category": "single",
+      "score": 1.0,
+      "rank": 1,
+      "recall5": 1.0,
+      "found": true,
+      "failure": null,
+      "answer": "If an update fails, the device automatically returns to the previous firmware version [1]. Wait 5 minutes and try again [1]. After three failed attempts, contact support with the error message shown in the app [1].",
+      "cited": [
+        "faq/lumora-app-faq.md"
+      ],
+      "top5": [
+        "faq/lumora-app-faq.md",
+        "release-notes/pulse-firmware-release-notes.md",
+        "manuals/pulse-user-manual.pdf, page 3",
+        "release-notes/aria-x2-firmware-release-notes.md",
+        "manuals/pulse-pro-user-manual.pdf, page 2"
+      ],
+      "verdict": {
+        "correctness": "correct",
+        "faithful": true,
+        "reason": "The answer includes all key facts from the reference and each claim is directly supported by source [1]."
+      }
+    },
+    {
+      "id": "s10",
+      "category": "single",
+      "score": 1.0,
+      "rank": 1,
+      "recall5": 1.0,
+      "found": true,
+      "failure": null,
+      "answer": "Yes, the speaker can charge a phone through its USB-C port using its power bank function [1].",
+      "cited": [
+        "manuals/aria-x2-user-manual.pdf, page 1"
+      ],
+      "top5": [
+        "manuals/aria-x2-user-manual.pdf, page 1",
+        "manuals/aria-x2-user-manual.pdf, page 1",
+        "manuals/aria-x2-user-manual.pdf, page 2",
+        "release-notes/aria-x2-firmware-release-notes.md",
+        "manuals/aria-x2-user-manual.pdf, page 1"
+      ],
+      "verdict": {
+        "correctness": "correct",
+        "faithful": true,
+        "reason": "The answer correctly states the Aria X2 can charge a phone via its USB-C power bank function, matching the reference and supported by source [1]."
+      }
+    },
+    {
+      "id": "s11",
+      "category": "single",
+      "score": 1.0,
+      "rank": 1,
+      "recall5": 1.0,
+      "found": true,
+      "failure": null,
+      "answer": "To switch between noise cancelling and transparency on the Pulse Pro, press and hold either earbud for 2 seconds to cycle through the modes (ANC, Transparency, and Off) [1].",
+      "cited": [
+        "manuals/pulse-pro-user-manual.pdf, page 1"
+      ],
+      "top5": [
+        "manuals/pulse-pro-user-manual.pdf, page 1",
+        "faq/general-faq.md",
+        "manuals/halo-anc-user-manual.pdf, page 1",
+        "manuals/pulse-pro-user-manual.pdf, page 2",
+        "manuals/halo-anc-user-manual.pdf, page 1"
+      ],
+      "verdict": {
+        "correctness": "correct",
+        "faithful": true,
+        "reason": "The answer matches the reference and is fully supported by source [1]."
+      }
+    },
+    {
+      "id": "s12",
+      "category": "single",
+      "score": 1.0,
+      "rank": 1,
+      "recall5": 1.0,
+      "found": true,
+      "failure": null,
+      "answer": "Charging the Aria X2 from empty to full takes 3.5 hours with a 20 W USB-C charger [1].",
+      "cited": [
+        "manuals/aria-x2-user-manual.pdf, page 1"
+      ],
+      "top5": [
+        "manuals/aria-x2-user-manual.pdf, page 1",
+        "manuals/aria-x2-user-manual.pdf, page 2",
+        "manuals/pulse-user-manual.pdf, page 2",
+        "manuals/aria-x2-user-manual.pdf, page 1",
+        "release-notes/aria-x2-firmware-release-notes.md"
+      ],
+      "verdict": {
+        "correctness": "correct",
+        "faithful": true,
+        "reason": "The answer matches the reference and is supported by source [1]."
+      }
+    },
+    {
+      "id": "s13",
+      "category": "single",
+      "score": 1.0,
+      "rank": 1,
+      "recall5": 1.0,
+      "found": true,
+      "failure": null,
+      "answer": "You need to order before 2:00 PM local warehouse time on a business day for your package to ship the same day [1].",
+      "cited": [
+        "policies/shipping-policy.md"
+      ],
+      "top5": [
+        "policies/shipping-policy.md",
+        "policies/shipping-policy.md",
+        "policies/shipping-policy.md",
+        "policies/shipping-policy.md",
+        "policies/shipping-policy.md"
+      ],
+      "verdict": {
+        "correctness": "correct",
+        "faithful": true,
+        "reason": "The assistant's answer matches the reference and is directly supported by source [1]."
+      }
+    },
+    {
+      "id": "s14",
+      "category": "single",
+      "score": 1.0,
+      "rank": 2,
+      "recall5": 1.0,
+      "found": true,
+      "failure": null,
+      "answer": "If tracking has not updated for 7 business days, contact support within 30 days of the expected delivery date [2]. They will send a replacement or issue a refund at no cost [2].",
+      "cited": [
+        "policies/shipping-policy.md"
+      ],
+      "top5": [
+        "policies/shipping-policy.md",
+        "policies/shipping-policy.md",
+        "policies/return-policy-2026.md",
+        "policies/return-policy-2026.md",
+        "manuals/halo-anc-user-manual.pdf, page 1"
+      ],
+      "verdict": {
+        "correctness": "correct",
+        "faithful": true,
+        "reason": "The assistant's answer matches the reference and is fully supported by source [2]."
+      }
+    },
+    {
+      "id": "s15",
+      "category": "single",
+      "score": 1.0,
+      "rank": 1,
+      "recall5": 1.0,
+      "found": true,
+      "failure": null,
+      "answer": "If you bought directly from Lumora, no, because they find the order from your serial number [1]. For purchases from retailers, a proof of purchase showing the date is required [1][2].",
+      "cited": [
+        "faq/general-faq.md",
+        "policies/warranty-terms-2026.pdf, page 2"
+      ],
+      "top5": [
+        "faq/general-faq.md",
+        "policies/warranty-terms-2026.pdf, page 2",
+        "policies/warranty-terms-2026.pdf, page 2",
+        "catalog/warranty-matrix.xlsx, row 1",
+        "catalog/warranty-matrix.xlsx, row 2"
+      ],
+      "verdict": {
+        "correctness": "correct",
+        "faithful": true,
+        "reason": "The assistant's answer matches the reference answer and is fully supported by the provided sources."
+      }
+    },
+    {
+      "id": "s16",
+      "category": "single",
+      "score": 0.0,
+      "rank": 6,
+      "recall5": 0.0,
+      "found": false,
+      "failure": "arama",
+      "answer": "I couldn't find this in the documents.",
+      "cited": [],
+      "top5": [
+        "policies/return-policy-2026.md",
+        "manuals/halo-anc-user-manual.pdf, page 1",
+        "policies/warranty-terms-2026.pdf, page 2",
+        "policies/return-policy-2026.md",
+        "faq/lumora-app-faq.md"
+      ],
+      "verdict": null
+    },
+    {
+      "id": "s17",
+      "category": "single",
+      "score": 0.0,
+      "rank": 10,
+      "recall5": 0.0,
+      "found": false,
+      "failure": "arama",
+      "answer": "I couldn't find this in the documents.",
+      "cited": [],
+      "top5": [
+        "policies/return-policy-2025.md",
+        "policies/return-policy-2026.md",
+        "faq/general-faq.md",
+        "policies/warranty-terms-2026.pdf, page 1",
+        "policies/warranty-terms-2026.pdf, page 2"
+      ],
+      "verdict": null
+    },
+    {
+      "id": "t01",
+      "category": "table",
+      "score": 1.0,
+      "rank": 5,
+      "recall5": 1.0,
+      "found": true,
+      "failure": null,
+      "answer": "Pulse Pro costs 169 GBP in the UK [5].",
+      "cited": [
+        "catalog/product-catalog-2026.xlsx, row 2"
+      ],
+      "top5": [
+        "manuals/pulse-pro-user-manual.pdf, page 1",
+        "manuals/pulse-pro-user-manual.pdf, page 1",
+        "catalog/warranty-matrix.xlsx, row 2",
+        "faq/general-faq.md",
+        "catalog/product-catalog-2026.xlsx, row 2"
+      ],
+      "verdict": {
+        "correctness": "correct",
+        "faithful": true,
+        "reason": "The assistant correctly states the UK price as 169 GBP, matching the reference and source [5]."
+      }
+    },
+    {
+      "id": "t02",
+      "category": "table",
+      "score": 1.0,
+      "rank": 4,
+      "recall5": 1.0,
+      "found": true,
+      "failure": null,
+      "answer": "The Aria Mini plays for 12 hours on one charge [4].",
+      "cited": [
+        "catalog/product-catalog-2026.xlsx, row 6"
+      ],
+      "top5": [
+        "manuals/aria-x2-user-manual.pdf, page 1",
+        "manuals/pulse-user-manual.pdf, page 2",
+        "manuals/aria-x2-user-manual.pdf, page 1",
+        "catalog/product-catalog-2026.xlsx, row 6",
+        "manuals/pulse-pro-user-manual.pdf, page 1"
+      ],
+      "verdict": {
+        "correctness": "correct",
+        "faithful": true,
+        "reason": "The assistant correctly states 12 hours per charge, supported by source [4]."
+      }
+    },
+    {
+      "id": "t03",
+      "category": "table",
+      "score": 0.0,
+      "rank": 1,
+      "recall5": 1.0,
+      "found": false,
+      "failure": "yanlis-ret",
+      "answer": "I couldn't find this in the documents.",
+      "cited": [],
+      "top5": [
+        "catalog/product-catalog-2026.xlsx, row 4",
+        "faq/general-faq.md",
+        "manuals/pulse-pro-user-manual.pdf, page 1",
+        "catalog/warranty-matrix.xlsx, row 2",
+        "catalog/product-catalog-2026.xlsx, row 2"
+      ],
+      "verdict": null
+    },
+    {
+      "id": "t04",
+      "category": "table",
+      "score": 1.0,
+      "rank": 1,
+      "recall5": 1.0,
+      "found": true,
+      "failure": null,
+      "answer": "On the Lumora Pulse earbuds, error code E-410 means the pairing memory is full (8 devices) [1].",
+      "cited": [
+        "manuals/pulse-user-manual.pdf, page 3"
+      ],
+      "top5": [
+        "manuals/pulse-user-manual.pdf, page 3",
+        "manuals/pulse-pro-user-manual.pdf, page 2",
+        "manuals/pulse-user-manual.pdf, page 3",
+        "release-notes/pulse-firmware-release-notes.md",
+        "faq/general-faq.md"
+      ],
+      "verdict": {
+        "correctness": "correct",
+        "faithful": true,
+        "reason": "The answer correctly states the meaning of E-410 and cites the supporting source."
+      }
+    },
+    {
+      "id": "t05",
+      "category": "table",
+      "score": 1.0,
+      "rank": 1,
+      "recall5": 1.0,
+      "found": true,
+      "failure": null,
+      "answer": "Error code E-502 on the Pulse Pro means the ANC processor temperature is too high [1].",
+      "cited": [
+        "manuals/pulse-pro-user-manual.pdf, page 2"
+      ],
+      "top5": [
+        "manuals/pulse-pro-user-manual.pdf, page 2",
+        "manuals/pulse-user-manual.pdf, page 3",
+        "manuals/pulse-user-manual.pdf, page 3",
+        "release-notes/pulse-firmware-release-notes.md",
+        "manuals/pulse-pro-user-manual.pdf, page 1"
+      ],
+      "verdict": {
+        "correctness": "correct",
+        "faithful": true,
+        "reason": "The assistant accurately states the meaning of error code E-502 from the provided source, which directly answers the question."
+      }
+    },
+    {
+      "id": "t06",
+      "category": "table",
+      "score": 1.0,
+      "rank": 1,
+      "recall5": 1.0,
+      "found": true,
+      "failure": null,
+      "answer": "Standard shipping to Canada is CA$9.99 [1]. It is free on orders of CA$99 or more [1].",
+      "cited": [
+        "policies/shipping-policy.md"
+      ],
+      "top5": [
+        "policies/shipping-policy.md",
+        "policies/shipping-policy.md",
+        "policies/shipping-policy.md",
+        "policies/shipping-policy.md",
+        "faq/general-faq.md"
+      ],
+      "verdict": {
+        "correctness": "correct",
+        "faithful": true,
+        "reason": "The assistant correctly states the standard shipping cost to Canada (CA$9.99) and the free shipping threshold (CA$99) as shown in the source table."
+      }
+    },
+    {
+      "id": "t07",
+      "category": "table",
+      "score": 1.0,
+      "rank": 2,
+      "recall5": 1.0,
+      "found": true,
+      "failure": null,
+      "answer": "The warranty on Pulse earbuds bought in the United States is 12 months [2].",
+      "cited": [
+        "catalog/warranty-matrix.xlsx, row 1"
+      ],
+      "top5": [
+        "catalog/warranty-matrix.xlsx, row 2",
+        "catalog/warranty-matrix.xlsx, row 1",
+        "faq/general-faq.md",
+        "manuals/pulse-user-manual.pdf, page 2",
+        "manuals/pulse-pro-user-manual.pdf, page 1"
+      ],
+      "verdict": {
+        "correctness": "correct",
+        "faithful": true,
+        "reason": "The answer correctly states 12 months warranty for Pulse earbuds in the US, supported by source [2]."
+      }
+    },
+    {
+      "id": "t08",
+      "category": "table",
+      "score": 1.0,
+      "rank": 5,
+      "recall5": 1.0,
+      "found": true,
+      "failure": null,
+      "answer": "Accessories such as cables are not returnable if opened [5].",
+      "cited": [
+        "policies/return-policy-2026.md"
+      ],
+      "top5": [
+        "policies/return-policy-2025.md",
+        "policies/return-policy-2025.md",
+        "policies/return-policy-2026.md",
+        "policies/return-policy-2026.md",
+        "policies/return-policy-2026.md"
+      ],
+      "verdict": {
+        "correctness": "correct",
+        "faithful": true,
+        "reason": "The answer correctly states that opened accessories such as charging cables are not returnable, directly citing the source table that shows accessories are not returnable if opened."
+      }
+    },
+    {
+      "id": "t09",
+      "category": "table",
+      "score": 1.0,
+      "rank": 2,
+      "recall5": 1.0,
+      "found": true,
+      "failure": null,
+      "answer": "Pulse Pro, Halo ANC, and Aria X2 can be connected to two devices at the same time [2].",
+      "cited": [
+        "faq/lumora-app-faq.md"
+      ],
+      "top5": [
+        "release-notes/aria-x2-firmware-release-notes.md",
+        "faq/lumora-app-faq.md",
+        "faq/lumora-app-faq.md",
+        "faq/lumora-app-faq.md",
+        "manuals/pulse-user-manual.pdf, page 3"
+      ],
+      "verdict": {
+        "correctness": "correct",
+        "faithful": true,
+        "reason": "Assistant correctly lists the three products that support multipoint as per source [2]."
+      }
+    },
+    {
+      "id": "m01",
+      "category": "multi",
+      "score": 0.0,
+      "rank": 1,
+      "recall5": 0.3333333333333333,
+      "found": false,
+      "failure": "arama",
+      "answer": "I couldn't find this in the documents.",
+      "cited": [],
+      "top5": [
+        "faq/general-faq.md",
+        "manuals/pulse-pro-user-manual.pdf, page 1",
+        "catalog/warranty-matrix.xlsx, row 2",
+        "manuals/pulse-pro-user-manual.pdf, page 2",
+        "manuals/pulse-pro-user-manual.pdf, page 1"
+      ],
+      "verdict": null
+    },
+    {
+      "id": "m02",
+      "category": "multi",
+      "score": 1.0,
+      "rank": 1,
+      "recall5": 1.0,
+      "found": true,
+      "failure": null,
+      "answer": "Damage from chlorinated pool water is not covered [1][3]. \n\nAfter exposure to chlorinated water, you should rinse the speaker with fresh water and let it dry for 2 hours before charging [2].",
+      "cited": [
+        "policies/warranty-terms-2026.pdf, page 1",
+        "catalog/warranty-matrix.xlsx, row 5",
+        "manuals/aria-x2-user-manual.pdf, page 2"
+      ],
+      "top5": [
+        "policies/warranty-terms-2026.pdf, page 1",
+        "manuals/aria-x2-user-manual.pdf, page 2",
+        "catalog/warranty-matrix.xlsx, row 5",
+        "catalog/warranty-matrix.xlsx, row 6",
+        "release-notes/aria-x2-firmware-release-notes.md"
+      ],
+      "verdict": {
+        "correctness": "correct",
+        "faithful": true,
+        "reason": "Assistant correctly states warranty exclusion for chlorinated water and proper post-exposure steps, all supported by sources."
+      }
+    },
+    {
+      "id": "m03",
+      "category": "multi",
+      "score": 1.0,
+      "rank": 2,
+      "recall5": 1.0,
+      "found": true,
+      "failure": null,
+      "answer": "Pulse Pro provides up to 6 hours of playback with ANC on, or 8 hours with ANC off [2]. The standard Pulse provides up to 7 hours of playback per charge [5].",
+      "cited": [
+        "manuals/pulse-pro-user-manual.pdf, page 1",
+        "manuals/pulse-user-manual.pdf, page 2"
+      ],
+      "top5": [
+        "faq/general-faq.md",
+        "manuals/pulse-pro-user-manual.pdf, page 1",
+        "manuals/pulse-pro-user-manual.pdf, page 2",
+        "manuals/pulse-pro-user-manual.pdf, page 1",
+        "manuals/pulse-user-manual.pdf, page 2"
+      ],
+      "verdict": {
+        "correctness": "correct",
+        "faithful": true,
+        "reason": "The answer matches the reference and is fully supported by the cited sources."
+      }
+    },
+    {
+      "id": "m04",
+      "category": "multi",
+      "score": 1.0,
+      "rank": 1,
+      "recall5": 1.0,
+      "found": true,
+      "failure": null,
+      "answer": "Yes, Find My Lumora can play a sound on each earbud separately (only when they are in Bluetooth range and out of the case) [1][2]. This feature was introduced in firmware version 3.1.0 [1].",
+      "cited": [
+        "release-notes/pulse-firmware-release-notes.md",
+        "faq/lumora-app-faq.md"
+      ],
+      "top5": [
+        "release-notes/pulse-firmware-release-notes.md",
+        "faq/lumora-app-faq.md",
+        "faq/general-faq.md",
+        "faq/lumora-app-faq.md",
+        "manuals/pulse-user-manual.pdf, page 1"
+      ],
+      "verdict": {
+        "correctness": "correct",
+        "faithful": true,
+        "reason": "The assistant's answer matches the reference answer's key facts and all claims are supported by the cited sources."
+      }
+    },
+    {
+      "id": "m05",
+      "category": "multi",
+      "score": 1.0,
+      "rank": 1,
+      "recall5": 1.0,
+      "found": true,
+      "failure": null,
+      "answer": "Express shipping to the United Kingdom costs £9.99 [3]. You have 14 days from the delivery date to return opened Halo ANC headphones [1].",
+      "cited": [
+        "policies/shipping-policy.md",
+        "policies/return-policy-2026.md"
+      ],
+      "top5": [
+        "policies/return-policy-2026.md",
+        "manuals/halo-anc-user-manual.pdf, page 1",
+        "policies/shipping-policy.md",
+        "catalog/product-catalog-2026.xlsx, row 3",
+        "policies/return-policy-2026.md"
+      ],
+      "verdict": {
+        "correctness": "correct",
+        "faithful": true,
+        "reason": "The answer correctly states the UK express shipping cost (£9.99) and the 14-day return window for opened Halo ANC headphones, both directly supported by the cited sources."
+      }
+    },
+    {
+      "id": "m06",
+      "category": "multi",
+      "score": 1.0,
+      "rank": 1,
+      "recall5": 1.0,
+      "found": true,
+      "failure": null,
+      "answer": "No, the standard Pulse does not support wireless (Qi) charging [5] and does not support multipoint [1].",
+      "cited": [
+        "manuals/pulse-user-manual.pdf, page 2",
+        "faq/lumora-app-faq.md"
+      ],
+      "top5": [
+        "faq/lumora-app-faq.md",
+        "manuals/pulse-pro-user-manual.pdf, page 2",
+        "faq/general-faq.md",
+        "manuals/pulse-pro-user-manual.pdf, page 1",
+        "manuals/pulse-user-manual.pdf, page 2"
+      ],
+      "verdict": {
+        "correctness": "correct",
+        "faithful": true,
+        "reason": "The assistant correctly states that the standard Pulse lacks both wireless Qi charging and multipoint, matching the reference answer and supported by sources [5] and [1]."
+      }
+    },
+    {
+      "id": "m07",
+      "category": "multi",
+      "score": 1.0,
+      "rank": 1,
+      "recall5": 1.0,
+      "found": true,
+      "failure": null,
+      "answer": "The Aria X2 is rated IP67, meaning it is protected against immersion in fresh water up to 1 meter for 30 minutes, provided the USB-C port cover is fully closed [1]. Water damage within these limits is covered under the warranty [3]. \n\nThe Aria Mini has an IPX5 water rating, and damage from immersion is not covered by the warranty [2][3]. Therefore, the Aria X2 is the safer choice for protection against being dropped in the water [1][3].",
+      "cited": [
+        "manuals/aria-x2-user-manual.pdf, page 2",
+        "policies/warranty-terms-2026.pdf, page 1",
+        "catalog/product-catalog-2026.xlsx, row 6"
+      ],
+      "top5": [
+        "manuals/aria-x2-user-manual.pdf, page 2",
+        "catalog/product-catalog-2026.xlsx, row 6",
+        "policies/warranty-terms-2026.pdf, page 1",
+        "manuals/aria-x2-user-manual.pdf, page 1",
+        "release-notes/aria-x2-firmware-release-notes.md"
+      ],
+      "verdict": {
+        "correctness": "correct",
+        "faithful": true,
+        "reason": "The answer correctly identifies Aria X2 as IP67 with immersion coverage and Aria Mini as IPX5 without immersion coverage, all supported by sources."
+      }
+    },
+    {
+      "id": "c01",
+      "category": "conflict",
+      "score": 1.0,
+      "rank": 1,
+      "recall5": 1.0,
+      "found": true,
+      "failure": null,
+      "answer": "No, you cannot return them [1]. Opened earbuds (Pulse, Pulse Pro) have a 14-day return window from the delivery date [1].",
+      "cited": [
+        "policies/return-policy-2026.md"
+      ],
+      "top5": [
+        "policies/return-policy-2026.md",
+        "policies/return-policy-2025.md",
+        "policies/return-policy-2026.md",
+        "faq/general-faq.md",
+        "policies/return-policy-2026.md"
+      ],
+      "verdict": {
+        "correctness": "correct",
+        "faithful": true,
+        "reason": "The answer correctly states that opened earbuds have a 14-day return window per the 2026 policy, so return after 20 days is not allowed."
+      }
+    },
+    {
+      "id": "c02",
+      "category": "conflict",
+      "score": 1.0,
+      "rank": 1,
+      "recall5": 1.0,
+      "found": true,
+      "failure": null,
+      "answer": "You have 30 days to return an opened Aria Mini speaker [1].",
+      "cited": [
+        "policies/return-policy-2026.md"
+      ],
+      "top5": [
+        "policies/return-policy-2026.md",
+        "policies/return-policy-2026.md",
+        "policies/return-policy-2025.md",
+        "catalog/product-catalog-2026.xlsx, row 6",
+        "policies/return-policy-2025.md"
+      ],
+      "verdict": {
+        "correctness": "correct",
+        "faithful": true,
+        "reason": "The answer correctly states the 30-day return window for opened Aria Mini speakers, supported by the 2026 policy table."
+      }
+    },
+    {
+      "id": "c03",
+      "category": "conflict",
+      "score": 1.0,
+      "rank": 1,
+      "recall5": 1.0,
+      "found": true,
+      "failure": null,
+      "answer": "Yes, the Aria X2 can connect to two devices at the same time [1][2]. You can enable this feature under **Device > Connections > Multipoint** [2].",
+      "cited": [
+        "release-notes/aria-x2-firmware-release-notes.md",
+        "faq/lumora-app-faq.md"
+      ],
+      "top5": [
+        "release-notes/aria-x2-firmware-release-notes.md",
+        "faq/lumora-app-faq.md",
+        "release-notes/aria-x2-firmware-release-notes.md",
+        "manuals/aria-x2-user-manual.pdf, page 1",
+        "manuals/aria-x2-user-manual.pdf, page 1"
+      ],
+      "verdict": {
+        "correctness": "correct",
+        "faithful": true,
+        "reason": "The assistant correctly states that Aria X2 supports multipoint connection to two devices, citing the firmware release notes and FAQ that confirm this feature."
+      }
+    },
+    {
+      "id": "c04",
+      "category": "conflict",
+      "score": 1.0,
+      "rank": 1,
+      "recall5": 1.0,
+      "found": true,
+      "failure": null,
+      "answer": "Party Mode supports up to 8 Aria X2 speakers [2]. Party Mode works only between Aria X2 speakers [1], so an Aria Mini cannot join [1].",
+      "cited": [
+        "release-notes/aria-x2-firmware-release-notes.md",
+        "manuals/aria-x2-user-manual.pdf, page 1"
+      ],
+      "top5": [
+        "manuals/aria-x2-user-manual.pdf, page 1",
+        "release-notes/aria-x2-firmware-release-notes.md",
+        "release-notes/aria-x2-firmware-release-notes.md",
+        "manuals/aria-x2-user-manual.pdf, page 1",
+        "faq/lumora-app-faq.md"
+      ],
+      "verdict": {
+        "correctness": "correct",
+        "faithful": true,
+        "reason": "Assistant correctly states up to 8 Aria X2 speakers per firmware 2.3.0 and that Party Mode is limited to Aria X2, excluding Aria Mini, all supported by sources."
+      }
+    },
+    {
+      "id": "c05",
+      "category": "conflict",
+      "score": 0.5,
+      "rank": 1,
+      "recall5": 1.0,
+      "found": true,
+      "failure": "cevap",
+      "answer": "For the Pulse Pro, error code E-214 means \"ANC microphone calibration failed\" [1]. The provided documents do not state whether the battery is broken.",
+      "cited": [
+        "manuals/pulse-pro-user-manual.pdf, page 2"
+      ],
+      "top5": [
+        "manuals/pulse-pro-user-manual.pdf, page 2",
+        "release-notes/pulse-firmware-release-notes.md",
+        "manuals/pulse-pro-user-manual.pdf, page 1",
+        "manuals/pulse-user-manual.pdf, page 3",
+        "catalog/product-catalog-2026.xlsx, row 2"
+      ],
+      "verdict": {
+        "correctness": "partial",
+        "faithful": true,
+        "reason": "The assistant correctly identifies the meaning of E-214 but does not explicitly state that the battery is not broken, leaving the yes/no question unanswered."
+      }
+    },
+    {
+      "id": "c06",
+      "category": "conflict",
+      "score": 1.0,
+      "rank": 1,
+      "recall5": 1.0,
+      "found": true,
+      "failure": null,
+      "answer": "On the Pulse Pro, error code E-101 means \"Earbud not detected in the case\" [1].",
+      "cited": [
+        "manuals/pulse-pro-user-manual.pdf, page 2"
+      ],
+      "top5": [
+        "manuals/pulse-pro-user-manual.pdf, page 2",
+        "manuals/pulse-pro-user-manual.pdf, page 1",
+        "manuals/pulse-pro-user-manual.pdf, page 1",
+        "manuals/pulse-user-manual.pdf, page 3",
+        "manuals/pulse-user-manual.pdf, page 3"
+      ],
+      "verdict": {
+        "correctness": "correct",
+        "faithful": true,
+        "reason": "The assistant correctly states the meaning of E-101 from the Pulse Pro manual and cites the source."
+      }
+    },
+    {
+      "id": "i01",
+      "category": "internal",
+      "score": 1.0,
+      "rank": 1,
+      "recall5": 1.0,
+      "found": true,
+      "failure": null,
+      "answer": "A $320 refund can be approved by a Senior Support Specialist [1][4].",
+      "cited": [
+        "internal/support-handbook.md",
+        "support/tickets-2026-q3.csv, row 29"
+      ],
+      "top5": [
+        "internal/support-handbook.md",
+        "support/tickets-2026-q3.csv, row 26",
+        "support/tickets-2026-q3.csv, row 9",
+        "support/tickets-2026-q3.csv, row 29",
+        "policies/return-policy-2025.md"
+      ],
+      "verdict": {
+        "correctness": "correct",
+        "faithful": true,
+        "reason": "The answer correctly identifies the Senior Support Specialist as the approver for a $320 refund, supported by the provided sources."
+      }
+    },
+    {
+      "id": "i02",
+      "category": "internal",
+      "score": 1.0,
+      "rank": 2,
+      "recall5": 1.0,
+      "found": true,
+      "failure": null,
+      "answer": "If a customer reports heat or a burning smell, you should:\n1. Tell the customer to stop using and stop charging the product immediately, and to keep it away from flammable materials [2].\n2. Tag the ticket `priority:high` and `safety` [2].\n3. Do not ask the customer to open the product or to ship it with a standard label, as batteries with suspected damage need a special hazardous-goods pickup arranged by the Product Safety team [2].\n4. Offer a replacement or full refund regardless of the warranty status [2].",
+      "cited": [
+        "internal/support-handbook.md"
+      ],
+      "top5": [
+        "support/tickets-2026-q3.csv, row 13",
+        "internal/support-handbook.md",
+        "manuals/halo-anc-user-manual.pdf, page 1",
+        "manuals/halo-anc-user-manual.pdf, page 1",
+        "support/tickets-2026-q3.csv, row 26"
+      ],
+      "verdict": {
+        "correctness": "correct",
+        "faithful": true,
+        "reason": "The assistant's answer includes all key safety steps from the reference answer and each step is directly supported by the cited handbook source."
+      }
+    },
+    {
+      "id": "i03",
+      "category": "internal",
+      "score": 0.5,
+      "rank": 1,
+      "recall5": 1.0,
+      "found": true,
+      "failure": "cevap",
+      "answer": "No, you do not need to create an RMA [1][2]. You should send a free replacement cushion kit using part `HA-CUSH-2` [1][2].",
+      "cited": [
+        "support/tickets-2026-q3.csv, row 2",
+        "internal/known-issues-2026-q3.md"
+      ],
+      "top5": [
+        "support/tickets-2026-q3.csv, row 2",
+        "internal/known-issues-2026-q3.md",
+        "manuals/halo-anc-user-manual.pdf, page 1",
+        "manuals/halo-anc-user-manual.pdf, page 1",
+        "support/tickets-2026-q3.csv, row 26"
+      ],
+      "verdict": {
+        "correctness": "partial",
+        "faithful": true,
+        "reason": "Assistant omitted the serial number condition (HA24) from the reference answer."
+      }
+    },
+    {
+      "id": "i04",
+      "category": "internal",
+      "score": 1.0,
+      "rank": 1,
+      "recall5": 1.0,
+      "found": true,
+      "failure": null,
+      "answer": "Use the RMA reason `DEF-BATT` and part code `R` [1][2].",
+      "cited": [
+        "support/tickets-2026-q3.csv, row 23",
+        "internal/known-issues-2026-q3.md"
+      ],
+      "top5": [
+        "support/tickets-2026-q3.csv, row 23",
+        "internal/known-issues-2026-q3.md",
+        "support/tickets-2026-q3.csv, row 1",
+        "release-notes/pulse-firmware-release-notes.md",
+        "manuals/pulse-pro-user-manual.pdf, page 2"
+      ],
+      "verdict": {
+        "correctness": "correct",
+        "faithful": true,
+        "reason": "The assistant's answer matches the reference answer exactly and is fully supported by the cited sources."
+      }
+    },
+    {
+      "id": "i05",
+      "category": "internal",
+      "score": 1.0,
+      "rank": 1,
+      "recall5": 1.0,
+      "found": true,
+      "failure": null,
+      "answer": "A Platinum reseller gets a margin on MSRP of 38% and payment terms of Net 45 [1].",
+      "cited": [
+        "internal/reseller-program-guide-2026.pdf, page 1"
+      ],
+      "top5": [
+        "internal/reseller-program-guide-2026.pdf, page 1",
+        "faq/general-faq.md",
+        "internal/reseller-program-guide-2026.pdf, page 1",
+        "support/retail-partners.csv, row 2",
+        "internal/reseller-program-guide-2026.pdf, page 1"
+      ],
+      "verdict": {
+        "correctness": "correct",
+        "faithful": true,
+        "reason": "The answer correctly states the 38% margin and Net 45 payment terms for Platinum resellers, matching the source."
+      }
+    },
+    {
+      "id": "i06",
+      "category": "internal",
+      "score": 1.0,
+      "rank": 1,
+      "recall5": 1.0,
+      "found": true,
+      "failure": null,
+      "answer": "Goodwill credits are capped at $40 per customer per 12 months, unless the Customer Operations Manager grants an exception [1].",
+      "cited": [
+        "internal/support-handbook.md"
+      ],
+      "top5": [
+        "internal/support-handbook.md",
+        "support/tickets-2026-q3.csv, row 19",
+        "policies/return-policy-2025.md",
+        "policies/return-policy-2026.md",
+        "support/tickets-2026-q3.csv, row 20"
+      ],
+      "verdict": {
+        "correctness": "correct",
+        "faithful": true,
+        "reason": "The answer matches the reference exactly and is supported by source [1]."
+      }
+    },
+    {
+      "id": "i07",
+      "category": "internal",
+      "score": 1.0,
+      "rank": 1,
+      "recall5": 1.0,
+      "found": true,
+      "failure": null,
+      "answer": "The retail partners in the UK that have demo units in store are AudioCorner and Hi-Fi Lane [1][3].",
+      "cited": [
+        "support/retail-partners.csv, row 3",
+        "support/retail-partners.csv, row 4"
+      ],
+      "top5": [
+        "support/retail-partners.csv, row 3",
+        "support/retail-partners.csv, row 5",
+        "support/retail-partners.csv, row 4",
+        "support/retail-partners.csv, row 6",
+        "support/retail-partners.csv, row 7"
+      ],
+      "verdict": {
+        "correctness": "correct",
+        "faithful": true,
+        "reason": "Assistant correctly identifies both UK retail partners with demo units, matching reference and sources."
+      }
+    },
+    {
+      "id": "h01",
+      "category": "hidden",
+      "score": 1.0,
+      "rank": null,
+      "recall5": 1.0,
+      "found": false,
+      "failure": null,
+      "answer": "I couldn't find this in the documents.",
+      "cited": [],
+      "top5": [
+        "faq/general-faq.md",
+        "policies/return-policy-2026.md",
+        "manuals/aria-x2-user-manual.pdf, page 1",
+        "policies/warranty-terms-2026.pdf, page 2",
+        "policies/return-policy-2026.md"
+      ],
+      "verdict": null
+    },
+    {
+      "id": "h02",
+      "category": "hidden",
+      "score": 1.0,
+      "rank": null,
+      "recall5": 1.0,
+      "found": false,
+      "failure": null,
+      "answer": "I couldn't find this in the documents.",
+      "cited": [],
+      "top5": [
+        "policies/return-policy-2025.md",
+        "policies/shipping-policy.md",
+        "policies/return-policy-2026.md",
+        "faq/general-faq.md",
+        "policies/shipping-policy.md"
+      ],
+      "verdict": null
+    },
+    {
+      "id": "h03",
+      "category": "hidden",
+      "score": 1.0,
+      "rank": null,
+      "recall5": 1.0,
+      "found": false,
+      "failure": null,
+      "answer": "I couldn't find this in the documents.",
+      "cited": [],
+      "top5": [
+        "policies/warranty-terms-2026.pdf, page 1",
+        "manuals/pulse-pro-user-manual.pdf, page 2",
+        "manuals/pulse-user-manual.pdf, page 3",
+        "manuals/pulse-user-manual.pdf, page 3",
+        "policies/return-policy-2026.md"
+      ],
+      "verdict": null
+    },
+    {
+      "id": "u01",
+      "category": "unanswerable",
+      "score": 1.0,
+      "rank": null,
+      "recall5": 1.0,
+      "found": false,
+      "failure": null,
+      "answer": "I couldn't find this in the documents.",
+      "cited": [],
+      "top5": [
+        "release-notes/pulse-firmware-release-notes.md",
+        "policies/return-policy-2025.md",
+        "policies/return-policy-2026.md",
+        "faq/lumora-app-faq.md",
+        "policies/return-policy-2026.md"
+      ],
+      "verdict": null
+    },
+    {
+      "id": "u02",
+      "category": "unanswerable",
+      "score": 1.0,
+      "rank": null,
+      "recall5": 1.0,
+      "found": false,
+      "failure": null,
+      "answer": "I couldn't find this in the documents.",
+      "cited": [],
+      "top5": [
+        "policies/shipping-policy.md",
+        "catalog/product-catalog-2026.xlsx, row 5",
+        "faq/general-faq.md",
+        "catalog/product-catalog-2026.xlsx, row 6",
+        "catalog/product-catalog-2026.xlsx, row 4"
+      ],
+      "verdict": null
+    },
+    {
+      "id": "u03",
+      "category": "unanswerable",
+      "score": 1.0,
+      "rank": null,
+      "recall5": 1.0,
+      "found": false,
+      "failure": null,
+      "answer": "I couldn't find this in the documents.",
+      "cited": [],
+      "top5": [
+        "policies/return-policy-2026.md",
+        "catalog/product-catalog-2026.xlsx, row 4",
+        "catalog/product-catalog-2026.xlsx, row 3",
+        "manuals/halo-anc-user-manual.pdf, page 1",
+        "policies/return-policy-2026.md"
+      ],
+      "verdict": null
+    },
+    {
+      "id": "u04",
+      "category": "unanswerable",
+      "score": 1.0,
+      "rank": null,
+      "recall5": 1.0,
+      "found": false,
+      "failure": null,
+      "answer": "I couldn't find this in the documents.",
+      "cited": [],
+      "top5": [
+        "catalog/product-catalog-2026.xlsx, row 3",
+        "catalog/product-catalog-2026.xlsx, row 4",
+        "manuals/halo-anc-user-manual.pdf, page 1",
+        "manuals/halo-anc-user-manual.pdf, page 1",
+        "manuals/halo-anc-user-manual.pdf, page 1"
+      ],
+      "verdict": null
+    },
+    {
+      "id": "u05",
+      "category": "unanswerable",
+      "score": 1.0,
+      "rank": null,
+      "recall5": 1.0,
+      "found": false,
+      "failure": null,
+      "answer": "I couldn't find this in the documents.",
+      "cited": [],
+      "top5": [
+        "release-notes/pulse-firmware-release-notes.md",
+        "release-notes/pulse-firmware-release-notes.md",
+        "release-notes/pulse-firmware-release-notes.md",
+        "release-notes/aria-x2-firmware-release-notes.md",
+        "release-notes/aria-x2-firmware-release-notes.md"
+      ],
+      "verdict": null
+    },
+    {
+      "id": "u06",
+      "category": "unanswerable",
+      "score": 1.0,
+      "rank": null,
+      "recall5": 1.0,
+      "found": false,
+      "failure": null,
+      "answer": "I couldn't find this in the documents.",
+      "cited": [],
+      "top5": [
+        "catalog/product-catalog-2026.xlsx, row 6",
+        "catalog/warranty-matrix.xlsx, row 6",
+        "manuals/aria-x2-user-manual.pdf, page 2",
+        "policies/return-policy-2026.md",
+        "policies/warranty-terms-2026.pdf, page 1"
+      ],
+      "verdict": null
+    }
+  ]
+}

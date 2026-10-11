@@ -1,0 +1,31 @@
+ticket_id,created_at,channel,product,category,country,subject,customer_message,resolution,status
+T-20417,2026-07-02,chat,Pulse,error-code,DE,E-214 after car trip,My Pulse says error E-214 after I charged it in the car.,"Customer on fw 3.1.0. Explained heat threshold, let cool 20 min. Advised update when 3.2.1 released. Resolved.",closed
+T-20433,2026-07-03,email,Halo ANC,hardware,US,Right cushion came off,The right ear cushion keeps detaching.,"Serial HA24-xxxx. Sent cushion kit HA-CUSH-2 free, no RMA.",closed
+T-20451,2026-07-05,chat,Pulse Pro,error-code,UK,E-214 on Pulse Pro,"Getting E-214 on my Pulse Pro, is my battery broken?",Pulse Pro E-214 = ANC mic calibration. Walked through Recalibrate ANC in app. Resolved.,closed
+T-20480,2026-07-08,email,Pulse,return,NL,Return opened earbuds,"I opened my Pulse 20 days ago, can I still return them?","Delivered 2026-06-18, purchased before 2026-07-01 so old 30-day policy applies. Return approved.",closed
+T-20502,2026-07-10,phone,Aria X2,warranty,US,Speaker died after lake,My Aria X2 stopped working after it fell in a lake.,"Fresh water, port cover closed per customer, 1 m depth. Covered under IP67 terms. RMA DEF-WATER created.",closed
+T-20519,2026-07-12,chat,Aria X2,warranty,ES,Pool accident,"Dropped my Aria X2 in the pool, now no sound.",Chlorinated water not covered by warranty. Offered out-of-warranty replacement at 40% off.,closed
+T-20544,2026-07-15,email,Pulse,return,FR,Return after 3 weeks,I bought Pulse on July 10 and opened them. Can I return now (Aug 2)?,"Delivered 2026-07-12, new policy: opened earbuds 14 days. Window ended 2026-07-26. Return declined politely, offered troubleshooting.",closed
+T-20566,2026-07-18,chat,Halo Lite,support,US,Still supported?,Is Halo Lite still getting updates?,"Discontinued March 2026, firmware support and warranty until March 2028.",closed
+T-20590,2026-07-21,email,Pulse Pro,refund,US,Refund for bulk order,Please refund my order of 4 Pulse Pro ($716).,Above $500: escalated with Request approval macro to Customer Operations Manager. Approved 2026-07-22.,closed
+T-20611,2026-07-24,chat,Pulse,connectivity,DE,Left earbud drops on Pixel,Left earbud disconnects in single mode on my Pixel with Android 15.,Known issue. Disabled LE Audio in developer settings. Works. Fix planned fw 3.3.,closed
+T-20637,2026-07-27,phone,Aria Mini,product,UK,Party mode with Aria X2,Can I link my Aria Mini with my friend's Aria X2?,Party Mode only between same model. Explained.,closed
+T-20658,2026-07-30,email,Pulse,shipping,AU,Import charges,Why did I pay import fees on my Pulse order?,Australia orders may have local import charges paid by recipient per shipping policy. No refund of charges.,closed
+T-20679,2026-08-02,chat,Halo ANC,safety,US,Headphones got very hot,My Halo ANC got really hot while charging and smells weird.,priority:high safety. Told to stop charging. Product Safety arranged hazmat pickup. Full refund issued.,closed
+T-20702,2026-08-05,email,Pulse Pro,error-code,IT,E-502,Error E-502 when using ANC on the beach.,"ANC processor overheating. Advised 10 min rest, avoid direct sun.",closed
+T-20725,2026-08-08,chat,Pulse,account,US,Device registered to other account,"App says device not registered, bought second hand.",Previous owner must remove device. Customer to contact seller. Pending proof of purchase.,open
+T-20749,2026-08-11,email,Aria X2,product,CA,How many speakers in party mode,How many Aria X2 can I connect together?,Up to 8 since firmware 2.3.0 (manual still says 4). Advised update.,closed
+T-20771,2026-08-14,chat,Pulse,warranty,US,Warranty length,How long is the warranty on Pulse in the US?,US region: 12 months.,closed
+T-20790,2026-08-16,chat,Pulse,warranty,DE,Warranty length Germany,How long is the Pulse warranty in Germany?,EU region: 24 months.,closed
+T-20812,2026-08-19,email,Halo ANC,refund,UK,Goodwill for late delivery,"My order arrived 9 days late, can I get something?",Goodwill credit GBP 20 applied (within $40/12 months cap).,closed
+T-20833,2026-08-21,phone,Pulse Pro,hardware,US,Lost one earbud,I lost my right Pulse Pro earbud.,Loss not covered. Sent link to buy spare right earbud.,closed
+T-20856,2026-08-24,chat,Aria X2,product,NO,Charge phone from speaker,Can Aria X2 charge my phone?,"Yes, power bank function via USB-C port.",closed
+T-20878,2026-08-27,email,Pulse,error-code,UK,E-305 after update,Earbuds show E-305 after the app update.,Case firmware mismatch. Updated case with lid open. Resolved.,closed
+T-20899,2026-08-29,chat,Pulse,error-code,US,E-214 again at home,"E-214 keeps appearing at room temperature, already on 3.2.1.","Genuine sensor fault. RMA DEF-BATT part R created, advance replacement.",closed
+T-20921,2026-09-01,email,Pulse Pro,return,US,Return opened Pulse Pro,"Opened my Pulse Pro 10 days ago, want to return.",Within 14-day opened window. Return label sent.,closed
+T-20944,2026-09-03,chat,Aria Mini,warranty,US,Aria Mini in the rain,My Aria Mini got wet in the rain and crackles now.,"IPX5 covers rain. US warranty 12 months, purchased 2026-02. RMA DEF-WATER created.",closed
+T-20967,2026-09-05,email,Halo ANC,b2b,DE,Reseller refund request,We are a reseller and need a refund for 12 damaged units.,B2B order: routed to Channel Sales Lead for approval.,open
+T-20988,2026-09-08,chat,Pulse,product,US,Wireless charging,Can I charge the Pulse case on my wireless charger?,"No, Pulse case is USB-C only. Pulse Pro supports Qi.",closed
+T-21010,2026-09-10,phone,Aria X2,warranty,US,Salt water,"Took my Aria X2 to the beach, it went in the sea.",Salt water excluded from warranty. Offered rinse instructions; unit did not recover. Out-of-warranty offer.,closed
+T-21033,2026-09-12,chat,Pulse Pro,refund,US,Refund $320,Requesting refund of $320 for two defective Pulse Pro.,Between $150 and $500: approved by Senior Support Specialist.,closed
+T-21055,2026-09-15,email,Pulse,shipping,JP,Shipping to Japan,Do you ship to Japan?,Not a supported shipping country. Order cancelled and refunded.,closed

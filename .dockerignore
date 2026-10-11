@@ -1,0 +1,15 @@
+# What Docker never copies into an image. Secrets stay out (compose passes .env at
+# run time), and so does everything the running system does not need.
+.env
+.git
+.venv
+.cache
+**/__pycache__
+.pytest_cache
+.ruff_cache
+data/processed
+eval
+dersler
+tests
+scripts
+notebooks

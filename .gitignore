@@ -1,0 +1,27 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Secrets
+.env
+
+# Local caches
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+eval/cache/
+.cache/
+
+# Derived data (regenerate with: uv run python -m scripts.a2_load)
+data/processed/
+
+# Turkish course notes and reports: local only
+dersler/
+eval/results/*.md
